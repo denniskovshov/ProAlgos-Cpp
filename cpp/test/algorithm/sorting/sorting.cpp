@@ -34,6 +34,7 @@ TEST_CASE("Sort in ascending order", "[sorting]") {
         insertion_sort,
         merge_sort,
         quick_sort,
+        // radix_sort,      // This test reveals that the radix sort is broken
         selection_sort,
         shell_sort
     };
@@ -73,6 +74,7 @@ TEST_CASE("Sort in descending order", "[sorting]") {
         insertion_sort,
         merge_sort,
         quick_sort,
+        // radix_sort,      // This test reveals that the radix sort is broken
         selection_sort,
         shell_sort
     };
